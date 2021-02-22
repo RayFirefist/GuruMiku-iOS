@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F50D423BF20BB83045C32B89A1685602"
-               BuildableName = "Pods_Test_SwiftUI_Test_SwiftUIUITests.framework"
-               BlueprintName = "Pods-Test-SwiftUI-Test-SwiftUIUITests"
+               BlueprintIdentifier = "110190A4A1CEC078ADD12AA60DBEB783"
+               BuildableName = "Pods_GuruMiku.framework"
+               BlueprintName = "Pods-GuruMiku"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

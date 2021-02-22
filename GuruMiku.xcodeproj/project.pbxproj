@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65AA39760B12127C49A48FA4 /* Pods_Test_SwiftUI_Test_SwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2FEE2C67D4FAF79EE56E40 /* Pods_Test_SwiftUI_Test_SwiftUIUITests.framework */; };
-		7BA1D774E771088BB3948824 /* Pods_Test_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F1CBD6E292F8D108CB682F /* Pods_Test_SwiftUI.framework */; };
+		049FECF15DE6D2C5374AFE75 /* Pods_GuruMikuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858F5B196D4B1A123FBA9508 /* Pods_GuruMikuTests.framework */; };
+		2FABBA6CD96F26EA562A84EE /* Pods_GuruMiku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A51C4CE686144F3FEC63F2 /* Pods_GuruMiku.framework */; };
 		84B7E9C425E3975B0060DB3C /* GuruMikuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E9C325E3975B0060DB3C /* GuruMikuApp.swift */; };
 		84B7E9C625E3975B0060DB3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E9C525E3975B0060DB3C /* ContentView.swift */; };
 		84B7E9C825E3975C0060DB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B7E9C725E3975C0060DB3C /* Assets.xcassets */; };
@@ -24,7 +24,7 @@
 		84B7EA3325E3CA750060DB3C /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EA3225E3CA750060DB3C /* Cards.swift */; };
 		84B7EA3B25E3CC210060DB3C /* MultipleApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EA3A25E3CC210060DB3C /* MultipleApiResponse.swift */; };
 		84B7EA4025E3CDA90060DB3C /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EA3F25E3CDA90060DB3C /* Characters.swift */; };
-		E6842CAC7008C4A44EDB698E /* Pods_Test_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E6C482353FE98151A6F4C0 /* Pods_Test_SwiftUITests.framework */; };
+		D1020622A2537C909B772817 /* Pods_GuruMiku_GuruMikuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3A402F44E6448E89B6F2F5 /* Pods_GuruMiku_GuruMikuUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +46,12 @@
 
 /* Begin PBXFileReference section */
 		10C747D8E3726E9F73F8DA29 /* Pods-Test-SwiftUI-Test-SwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-SwiftUI-Test-SwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Test-SwiftUI-Test-SwiftUIUITests/Pods-Test-SwiftUI-Test-SwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B2FEE2C67D4FAF79EE56E40 /* Pods_Test_SwiftUI_Test_SwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_SwiftUI_Test_SwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14980D54EA0E706EBDDD03E8 /* Pods-GuruMikuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuruMikuTests.debug.xcconfig"; path = "Target Support Files/Pods-GuruMikuTests/Pods-GuruMikuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A9EF31797C0EC9E5788DE9C /* Pods-GuruMikuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuruMikuTests.release.xcconfig"; path = "Target Support Files/Pods-GuruMikuTests/Pods-GuruMikuTests.release.xcconfig"; sourceTree = "<group>"; };
+		3AF7114E7DBA0641CAD5EDCA /* Pods-GuruMiku-GuruMikuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuruMiku-GuruMikuUITests.debug.xcconfig"; path = "Target Support Files/Pods-GuruMiku-GuruMikuUITests/Pods-GuruMiku-GuruMikuUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5BFDAF92FD21AC16AA162528 /* Pods-Test-SwiftUI-Test-SwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-SwiftUI-Test-SwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-Test-SwiftUI-Test-SwiftUIUITests/Pods-Test-SwiftUI-Test-SwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6C57E7B11D7D0883BC6943BD /* Pods-Test-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-Test-SwiftUI/Pods-Test-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		73F8AC8E22199F503529F1D3 /* Pods-GuruMiku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuruMiku.debug.xcconfig"; path = "Target Support Files/Pods-GuruMiku/Pods-GuruMiku.debug.xcconfig"; sourceTree = "<group>"; };
 		84B7E9C025E3975B0060DB3C /* GuruMiku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuruMiku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B7E9C325E3975B0060DB3C /* GuruMikuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruMikuApp.swift; sourceTree = "<group>"; };
 		84B7E9C525E3975B0060DB3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,9 +73,12 @@
 		84B7EA3225E3CA750060DB3C /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 		84B7EA3A25E3CC210060DB3C /* MultipleApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleApiResponse.swift; sourceTree = "<group>"; };
 		84B7EA3F25E3CDA90060DB3C /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		858F5B196D4B1A123FBA9508 /* Pods_GuruMikuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuruMikuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B66B66127F0A6F7B8188591 /* Pods-GuruMiku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuruMiku.release.xcconfig"; path = "Target Support Files/Pods-GuruMiku/Pods-GuruMiku.release.xcconfig"; sourceTree = "<group>"; };
 		90476ABED2152DA1E79EEA3C /* Pods-Test-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-Test-SwiftUITests/Pods-Test-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		95F1CBD6E292F8D108CB682F /* Pods_Test_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0E6C482353FE98151A6F4C0 /* Pods_Test_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3A402F44E6448E89B6F2F5 /* Pods_GuruMiku_GuruMikuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuruMiku_GuruMikuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DAC1E4BD914B646269F194 /* Pods-GuruMiku-GuruMikuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuruMiku-GuruMikuUITests.release.xcconfig"; path = "Target Support Files/Pods-GuruMiku-GuruMikuUITests/Pods-GuruMiku-GuruMikuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1A51C4CE686144F3FEC63F2 /* Pods_GuruMiku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuruMiku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9CA115266F7AC6B42A46F0 /* Pods-Test-SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-Test-SwiftUI/Pods-Test-SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		FA364739BB4750E849946D39 /* Pods-Test-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-Test-SwiftUITests/Pods-Test-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BA1D774E771088BB3948824 /* Pods_Test_SwiftUI.framework in Frameworks */,
+				2FABBA6CD96F26EA562A84EE /* Pods_GuruMiku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6842CAC7008C4A44EDB698E /* Pods_Test_SwiftUITests.framework in Frameworks */,
+				049FECF15DE6D2C5374AFE75 /* Pods_GuruMikuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65AA39760B12127C49A48FA4 /* Pods_Test_SwiftUI_Test_SwiftUIUITests.framework in Frameworks */,
+				D1020622A2537C909B772817 /* Pods_GuruMiku_GuruMikuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,9 +114,9 @@
 		7AA4B8286011AFDFF6B00D44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				95F1CBD6E292F8D108CB682F /* Pods_Test_SwiftUI.framework */,
-				4B2FEE2C67D4FAF79EE56E40 /* Pods_Test_SwiftUI_Test_SwiftUIUITests.framework */,
-				B0E6C482353FE98151A6F4C0 /* Pods_Test_SwiftUITests.framework */,
+				C1A51C4CE686144F3FEC63F2 /* Pods_GuruMiku.framework */,
+				AF3A402F44E6448E89B6F2F5 /* Pods_GuruMiku_GuruMikuUITests.framework */,
+				858F5B196D4B1A123FBA9508 /* Pods_GuruMikuTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -281,6 +287,12 @@
 				5BFDAF92FD21AC16AA162528 /* Pods-Test-SwiftUI-Test-SwiftUIUITests.release.xcconfig */,
 				90476ABED2152DA1E79EEA3C /* Pods-Test-SwiftUITests.debug.xcconfig */,
 				FA364739BB4750E849946D39 /* Pods-Test-SwiftUITests.release.xcconfig */,
+				73F8AC8E22199F503529F1D3 /* Pods-GuruMiku.debug.xcconfig */,
+				8B66B66127F0A6F7B8188591 /* Pods-GuruMiku.release.xcconfig */,
+				3AF7114E7DBA0641CAD5EDCA /* Pods-GuruMiku-GuruMikuUITests.debug.xcconfig */,
+				B8DAC1E4BD914B646269F194 /* Pods-GuruMiku-GuruMikuUITests.release.xcconfig */,
+				14980D54EA0E706EBDDD03E8 /* Pods-GuruMikuTests.debug.xcconfig */,
+				3A9EF31797C0EC9E5788DE9C /* Pods-GuruMikuTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -421,15 +433,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Test-SwiftUI/Pods-Test-SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GuruMiku/Pods-GuruMiku-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Test-SwiftUI/Pods-Test-SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GuruMiku/Pods-GuruMiku-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test-SwiftUI/Pods-Test-SwiftUI-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuruMiku/Pods-GuruMiku-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3FC5614305FD1B2379970ED7 /* [CP] Check Pods Manifest.lock */ = {
@@ -447,7 +459,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Test-SwiftUI-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GuruMiku-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -460,15 +472,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Test-SwiftUI-Test-SwiftUIUITests/Pods-Test-SwiftUI-Test-SwiftUIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GuruMiku-GuruMikuUITests/Pods-GuruMiku-GuruMikuUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Test-SwiftUI-Test-SwiftUIUITests/Pods-Test-SwiftUI-Test-SwiftUIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GuruMiku-GuruMikuUITests/Pods-GuruMiku-GuruMikuUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test-SwiftUI-Test-SwiftUIUITests/Pods-Test-SwiftUI-Test-SwiftUIUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuruMiku-GuruMikuUITests/Pods-GuruMiku-GuruMikuUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CAEB705E82B837DF92647E51 /* [CP] Check Pods Manifest.lock */ = {
@@ -486,7 +498,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Test-SwiftUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GuruMikuTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,7 +520,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Test-SwiftUI-Test-SwiftUIUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GuruMiku-GuruMikuUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -686,7 +698,7 @@
 		};
 		84B7E9E625E3975C0060DB3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA9CA115266F7AC6B42A46F0 /* Pods-Test-SwiftUI.debug.xcconfig */;
+			baseConfigurationReference = 73F8AC8E22199F503529F1D3 /* Pods-GuruMiku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -709,7 +721,7 @@
 		};
 		84B7E9E725E3975C0060DB3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C57E7B11D7D0883BC6943BD /* Pods-Test-SwiftUI.release.xcconfig */;
+			baseConfigurationReference = 8B66B66127F0A6F7B8188591 /* Pods-GuruMiku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -732,7 +744,7 @@
 		};
 		84B7E9E925E3975D0060DB3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90476ABED2152DA1E79EEA3C /* Pods-Test-SwiftUITests.debug.xcconfig */;
+			baseConfigurationReference = 14980D54EA0E706EBDDD03E8 /* Pods-GuruMikuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -754,7 +766,7 @@
 		};
 		84B7E9EA25E3975D0060DB3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA364739BB4750E849946D39 /* Pods-Test-SwiftUITests.release.xcconfig */;
+			baseConfigurationReference = 3A9EF31797C0EC9E5788DE9C /* Pods-GuruMikuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -776,7 +788,7 @@
 		};
 		84B7E9EC25E3975D0060DB3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10C747D8E3726E9F73F8DA29 /* Pods-Test-SwiftUI-Test-SwiftUIUITests.debug.xcconfig */;
+			baseConfigurationReference = 3AF7114E7DBA0641CAD5EDCA /* Pods-GuruMiku-GuruMikuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -796,7 +808,7 @@
 		};
 		84B7E9ED25E3975D0060DB3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BFDAF92FD21AC16AA162528 /* Pods-Test-SwiftUI-Test-SwiftUIUITests.release.xcconfig */;
+			baseConfigurationReference = B8DAC1E4BD914B646269F194 /* Pods-GuruMiku-GuruMikuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
