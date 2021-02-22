@@ -8,6 +8,7 @@ target 'GuruMiku' do
   # Pods for Test-SwiftUI
   pod 'Alamofire', '~> 5.2'
   pod 'SwiftyJSON'
+  pod 'Spine'
 
   target 'GuruMikuTests' do
     inherit! :search_paths
