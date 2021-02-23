@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		049FECF15DE6D2C5374AFE75 /* Pods_GuruMikuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858F5B196D4B1A123FBA9508 /* Pods_GuruMikuTests.framework */; };
 		2FABBA6CD96F26EA562A84EE /* Pods_GuruMiku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A51C4CE686144F3FEC63F2 /* Pods_GuruMiku.framework */; };
+		8493460025E4FF9300E5CB55 /* MusicsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849345FF25E4FF9300E5CB55 /* MusicsList.swift */; };
+		8493460525E5001E00E5CB55 /* Musics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493460425E5001E00E5CB55 /* Musics.swift */; };
+		8493460B25E5009A00E5CB55 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493460A25E5009A00E5CB55 /* Enums.swift */; };
+		8493461325E5051100E5CB55 /* MusicDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493461225E5051100E5CB55 /* MusicDetails.swift */; };
+		8493461825E50E4A00E5CB55 /* LeftPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493461725E50E4A00E5CB55 /* LeftPadding.swift */; };
 		84B7E9C425E3975B0060DB3C /* GuruMikuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E9C325E3975B0060DB3C /* GuruMikuApp.swift */; };
 		84B7E9C625E3975B0060DB3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E9C525E3975B0060DB3C /* ContentView.swift */; };
 		84B7E9C825E3975C0060DB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B7E9C725E3975C0060DB3C /* Assets.xcassets */; };
@@ -24,6 +29,10 @@
 		84B7EA3325E3CA750060DB3C /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EA3225E3CA750060DB3C /* Cards.swift */; };
 		84B7EA3B25E3CC210060DB3C /* MultipleApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EA3A25E3CC210060DB3C /* MultipleApiResponse.swift */; };
 		84B7EA4025E3CDA90060DB3C /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EA3F25E3CDA90060DB3C /* Characters.swift */; };
+		84D787C425E447E400BF7025 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D787C325E447E400BF7025 /* CacheManager.swift */; };
+		84D787D725E44F9D00BF7025 /* SpineViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D787D625E44F9D00BF7025 /* SpineViewer.swift */; };
+		84D787E525E452BA00BF7025 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D787E425E452BA00BF7025 /* GameScene.swift */; };
+		84D787EA25E457B800BF7025 /* SyncHttpQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D787E925E457B800BF7025 /* SyncHttpQuery.swift */; };
 		D1020622A2537C909B772817 /* Pods_GuruMiku_GuruMikuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3A402F44E6448E89B6F2F5 /* Pods_GuruMiku_GuruMikuUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +61,11 @@
 		5BFDAF92FD21AC16AA162528 /* Pods-Test-SwiftUI-Test-SwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-SwiftUI-Test-SwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-Test-SwiftUI-Test-SwiftUIUITests/Pods-Test-SwiftUI-Test-SwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6C57E7B11D7D0883BC6943BD /* Pods-Test-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-Test-SwiftUI/Pods-Test-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		73F8AC8E22199F503529F1D3 /* Pods-GuruMiku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuruMiku.debug.xcconfig"; path = "Target Support Files/Pods-GuruMiku/Pods-GuruMiku.debug.xcconfig"; sourceTree = "<group>"; };
+		849345FF25E4FF9300E5CB55 /* MusicsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicsList.swift; sourceTree = "<group>"; };
+		8493460425E5001E00E5CB55 /* Musics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musics.swift; sourceTree = "<group>"; };
+		8493460A25E5009A00E5CB55 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		8493461225E5051100E5CB55 /* MusicDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetails.swift; sourceTree = "<group>"; };
+		8493461725E50E4A00E5CB55 /* LeftPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftPadding.swift; sourceTree = "<group>"; };
 		84B7E9C025E3975B0060DB3C /* GuruMiku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuruMiku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B7E9C325E3975B0060DB3C /* GuruMikuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruMikuApp.swift; sourceTree = "<group>"; };
 		84B7E9C525E3975B0060DB3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +87,10 @@
 		84B7EA3225E3CA750060DB3C /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 		84B7EA3A25E3CC210060DB3C /* MultipleApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleApiResponse.swift; sourceTree = "<group>"; };
 		84B7EA3F25E3CDA90060DB3C /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		84D787C325E447E400BF7025 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		84D787D625E44F9D00BF7025 /* SpineViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpineViewer.swift; sourceTree = "<group>"; };
+		84D787E425E452BA00BF7025 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		84D787E925E457B800BF7025 /* SyncHttpQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncHttpQuery.swift; sourceTree = "<group>"; };
 		858F5B196D4B1A123FBA9508 /* Pods_GuruMikuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuruMikuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B66B66127F0A6F7B8188591 /* Pods-GuruMiku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuruMiku.release.xcconfig"; path = "Target Support Files/Pods-GuruMiku/Pods-GuruMiku.release.xcconfig"; sourceTree = "<group>"; };
 		90476ABED2152DA1E79EEA3C /* Pods-Test-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-Test-SwiftUITests/Pods-Test-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +214,7 @@
 		84B7EA0025E39F740060DB3C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				84D787C925E44F7000BF7025 /* Spine */,
 				84B7EA0C25E39FB30060DB3C /* Cards */,
 				84B7EA0B25E39FA90060DB3C /* Common */,
 			);
@@ -205,6 +224,7 @@
 		84B7EA0125E39F800060DB3C /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				84D787C825E44F6400BF7025 /* SpineViewer */,
 				84C964BB25E3F86600E48329 /* Settings */,
 				84C964B725E3F24C00E48329 /* Musics */,
 				84C964B625E3F24700E48329 /* Gacha */,
@@ -228,6 +248,9 @@
 			children = (
 				84B7E9F425E39C020060DB3C /* ImageView.swift */,
 				84B7E9F925E39C300060DB3C /* ImageLoader.swift */,
+				84D787C325E447E400BF7025 /* CacheManager.swift */,
+				84D787E925E457B800BF7025 /* SyncHttpQuery.swift */,
+				8493461725E50E4A00E5CB55 /* LeftPadding.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -246,6 +269,8 @@
 				84B7EA3225E3CA750060DB3C /* Cards.swift */,
 				84B7EA3A25E3CC210060DB3C /* MultipleApiResponse.swift */,
 				84B7EA3F25E3CDA90060DB3C /* Characters.swift */,
+				8493460425E5001E00E5CB55 /* Musics.swift */,
+				8493460A25E5009A00E5CB55 /* Enums.swift */,
 			);
 			path = Structs;
 			sourceTree = "<group>";
@@ -267,6 +292,8 @@
 		84C964B725E3F24C00E48329 /* Musics */ = {
 			isa = PBXGroup;
 			children = (
+				849345FF25E4FF9300E5CB55 /* MusicsList.swift */,
+				8493461225E5051100E5CB55 /* MusicDetails.swift */,
 			);
 			path = Musics;
 			sourceTree = "<group>";
@@ -276,6 +303,22 @@
 			children = (
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		84D787C825E44F6400BF7025 /* SpineViewer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SpineViewer;
+			sourceTree = "<group>";
+		};
+		84D787C925E44F7000BF7025 /* Spine */ = {
+			isa = PBXGroup;
+			children = (
+				84D787D625E44F9D00BF7025 /* SpineViewer.swift */,
+				84D787E425E452BA00BF7025 /* GameScene.swift */,
+			);
+			path = Spine;
 			sourceTree = "<group>";
 		};
 		D2431A1ACD5510E1C13571D4 /* Pods */ = {
@@ -538,13 +581,22 @@
 				84B7E9F525E39C020060DB3C /* ImageView.swift in Sources */,
 				84B7E9FA25E39C300060DB3C /* ImageLoader.swift in Sources */,
 				84B7EA4025E3CDA90060DB3C /* Characters.swift in Sources */,
+				84D787C425E447E400BF7025 /* CacheManager.swift in Sources */,
+				84D787D725E44F9D00BF7025 /* SpineViewer.swift in Sources */,
 				84B7EA3325E3CA750060DB3C /* Cards.swift in Sources */,
 				84B7E9C425E3975B0060DB3C /* GuruMikuApp.swift in Sources */,
 				84B7EA1E25E3B47A0060DB3C /* CardsDetail.swift in Sources */,
 				84B7EA1925E3A8890060DB3C /* Consts.swift in Sources */,
+				8493460525E5001E00E5CB55 /* Musics.swift in Sources */,
 				84B7EA3B25E3CC210060DB3C /* MultipleApiResponse.swift in Sources */,
+				8493460025E4FF9300E5CB55 /* MusicsList.swift in Sources */,
+				8493461325E5051100E5CB55 /* MusicDetails.swift in Sources */,
 				84B7EA0E25E39FD40060DB3C /* CardIcon.swift in Sources */,
+				84D787E525E452BA00BF7025 /* GameScene.swift in Sources */,
 				84B7EA0425E39FA10060DB3C /* CardsList.swift in Sources */,
+				8493460B25E5009A00E5CB55 /* Enums.swift in Sources */,
+				8493461825E50E4A00E5CB55 /* LeftPadding.swift in Sources */,
+				84D787EA25E457B800BF7025 /* SyncHttpQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

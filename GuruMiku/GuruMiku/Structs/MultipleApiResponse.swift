@@ -8,8 +8,9 @@
 import Foundation
 
 struct MultipleApiResponseResult: Codable {
-    var CardMaster: [String:CardMaster]
-    var CharacterMaster: [String:CharacterMaster]
+    var CardMaster: [String:CardMaster]? = [:]
+    var CharacterMaster: [String:CharacterMaster]? = [:]
+    var MusicMaster: [String:MusicMaster]? = [:]
 }
 
 struct MultipleApiResponse: Codable {

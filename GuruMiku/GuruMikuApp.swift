@@ -20,7 +20,7 @@ struct GuruMikuApp: App {
                         }
                         .navigationTitle("Cards List")
                         .navigationBarTitle("Cards List")
-                    Text("TODO")
+                    MusicsList()
                         .tabItem {
                             Image(systemName: "music.note")
                             Text("Musics")
@@ -38,7 +38,7 @@ struct GuruMikuApp: App {
                             Text("Gacha")
                         }
                         .navigationTitle("Gacha List")
-                    Text("TODO")
+                    SpineViewer(name: "0430001")
                         .tabItem {
                             Image(systemName: "gear")
                             Text("Settings")

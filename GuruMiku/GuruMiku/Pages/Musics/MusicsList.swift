@@ -1,20 +1,22 @@
 //
-//  CardsList.swift
-//  Test-SwiftUI
+//  MusicsList.swift
+//  GuruMiku
 //
-//  Created by Ray on 22/02/21.
+//  Created by Ray on 23/02/21.
 //
+
+import SwiftUI
 
 import SwiftUI
 import Alamofire
 import SwiftyJSON
 
-class CardsListModel : ObservableObject {
-    @Published var cardsList: [String:CardMaster] = [:]
+class MusicsListModel : ObservableObject {
+    @Published var MusicsList: [String:MusicMaster] = [:]
     @Published var characterMaster: [String:CharacterMaster] = [:]
     
     init() {
-        let body: [String:[String]] = ["dbs":["CardMaster","CharacterMaster"]]
+        let body: [String:[String]] = ["dbs":["MusicMaster","UnitMaster","ChartMaster"]]
         var this = self
         AF.request(GuruMikuConsts.apiMultipleRequestUrl, method: .post, parameters: body, encoder: JSONParameterEncoder.sortedKeys)
             .validate(statusCode: 200..<300)
@@ -23,14 +25,14 @@ class CardsListModel : ObservableObject {
                     print(response)
                     return
                 }
-                this.cardsList = data.result.CardMaster!
-                this.characterMaster = data.result.CharacterMaster!
-                print(this.cardsList.count, this.characterMaster.count)
+                this.MusicsList = data.result.MusicMaster!
+                //this.characterMaster = data.result.CharacterMaster!
+                print(this.MusicsList.count, this.characterMaster.count)
             }
     }
     
-    func getSortedCards() -> [CardMaster] {
-        return cardsList.values.sorted {
+    func getSortedSongs() -> [MusicMaster] {
+        return MusicsList.values.sorted {
             $0.id < $1.id
         }
     }
@@ -45,9 +47,9 @@ class CardsListModel : ObservableObject {
     }
 }
 
-struct CardsList: View {
+struct MusicsList: View {
     
-    @ObservedObject var data: CardsListModel = CardsListModel()
+    @ObservedObject var data: MusicsListModel = MusicsListModel()
     
     private let columns = Array(
         repeating: GridItem(.adaptive(minimum: 100, maximum: 400), spacing: 5, alignment: .center),
@@ -58,18 +60,18 @@ struct CardsList: View {
         ScrollView {
             Text("Cards List").font(.title)
             LazyVGrid(columns: columns, alignment: .leading, spacing: 5, content: {
-                ForEach(Array(self.data.getSortedCards()), id:\.self) { (card) in
-                    NavigationLink(destination: CardsDetail(cardData: card)) {
-                        CardIcon(cardId: card.id, rarity: card.Rarity, attribute: card.Attribute)
+                ForEach(Array(self.data.getSortedSongs()), id:\.self) { (music) in
+                    NavigationLink(destination: MusicDetails()) {
+                        ImageView(withURL: "\(GuruMikuConsts.gameAssetsUrl)/music_jacket/music_jacket_\(String(music.id).leftPadding(toLength: 7, withPad: "0")).jpg")
                     }
                 }
             })
-        }.navigationTitle("Cards List")
+        }.navigationTitle("Musics List")
     }
 }
 
-struct CardsList_Previews: PreviewProvider {
+struct MusicsList_Previews: PreviewProvider {
     static var previews: some View {
-        CardsList()
+        MusicsList()
     }
 }
