@@ -20,30 +20,33 @@ struct GuruMikuApp: App {
                         }
                         .navigationTitle("Cards List")
                         .navigationBarTitle("Cards List")
+                        .navigationBarTitleDisplayMode(.inline)
                     MusicsList()
                         .tabItem {
                             Image(systemName: "music.note")
                             Text("Musics")
                         }
-                        .navigationTitle("Musics List")
+                        .navigationBarTitle("Musics List")
+                        .navigationBarTitleDisplayMode(.inline)
                     Text("TODO")
                         .tabItem {
                             Image(systemName: "person.3.fill")
                             Text("Events")
                         }
-                        .navigationTitle("Events List")
+                        .navigationBarTitle("Events List")
+                        .navigationBarTitleDisplayMode(.inline)
                     Text("TODO")
                         .tabItem {
                             Image(systemName: "creditcard.fill")
                             Text("Gacha")
                         }
-                        .navigationTitle("Gacha List")
-                    SpineViewer(name: "0430001")
+                        .navigationBarTitle("Gacha List")
+                        .navigationBarTitleDisplayMode(.inline)
+                    SettingsList()
                         .tabItem {
                             Image(systemName: "gear")
                             Text("Settings")
                         }
-                        .navigationTitle("Settings")
                 }
             }.navigationBarHidden(true)
         }

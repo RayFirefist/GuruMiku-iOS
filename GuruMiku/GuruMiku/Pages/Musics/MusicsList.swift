@@ -58,7 +58,7 @@ struct MusicsList: View {
     
     var body: some View {
         ScrollView {
-            Text("Cards List").font(.title)
+            Text("Musics List").font(.title)
             LazyVGrid(columns: columns, alignment: .leading, spacing: 5, content: {
                 ForEach(Array(self.data.getSortedSongs()), id:\.self) { (music) in
                     NavigationLink(destination: MusicDetails()) {

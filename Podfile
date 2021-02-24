@@ -9,6 +9,7 @@ target 'GuruMiku' do
   pod 'Alamofire', '~> 5.2'
   pod 'SwiftyJSON'
   pod 'Spine'
+  pod 'Parma'
 
   target 'GuruMikuTests' do
     inherit! :search_paths

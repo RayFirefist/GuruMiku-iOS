@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		049FECF15DE6D2C5374AFE75 /* Pods_GuruMikuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858F5B196D4B1A123FBA9508 /* Pods_GuruMikuTests.framework */; };
 		2FABBA6CD96F26EA562A84EE /* Pods_GuruMiku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A51C4CE686144F3FEC63F2 /* Pods_GuruMiku.framework */; };
+		847AC88F25E637B10030B0B3 /* SettingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC88E25E637B10030B0B3 /* SettingsList.swift */; };
+		847AC89425E637ED0030B0B3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC89325E637ED0030B0B3 /* Settings.swift */; };
+		847AC89A25E63D1C0030B0B3 /* SettingsAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC89925E63D1C0030B0B3 /* SettingsAbout.swift */; };
 		8493460025E4FF9300E5CB55 /* MusicsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849345FF25E4FF9300E5CB55 /* MusicsList.swift */; };
 		8493460525E5001E00E5CB55 /* Musics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493460425E5001E00E5CB55 /* Musics.swift */; };
 		8493460B25E5009A00E5CB55 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493460A25E5009A00E5CB55 /* Enums.swift */; };
@@ -61,6 +64,11 @@
 		5BFDAF92FD21AC16AA162528 /* Pods-Test-SwiftUI-Test-SwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-SwiftUI-Test-SwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-Test-SwiftUI-Test-SwiftUIUITests/Pods-Test-SwiftUI-Test-SwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6C57E7B11D7D0883BC6943BD /* Pods-Test-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-Test-SwiftUI/Pods-Test-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		73F8AC8E22199F503529F1D3 /* Pods-GuruMiku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuruMiku.debug.xcconfig"; path = "Target Support Files/Pods-GuruMiku/Pods-GuruMiku.debug.xcconfig"; sourceTree = "<group>"; };
+		847AC88E25E637B10030B0B3 /* SettingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsList.swift; sourceTree = "<group>"; };
+		847AC89325E637ED0030B0B3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		847AC89925E63D1C0030B0B3 /* SettingsAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAbout.swift; sourceTree = "<group>"; };
+		847AC8AA25E642350030B0B3 /* ABOUT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ABOUT.md; sourceTree = "<group>"; };
+		847AC8AB25E6424F0030B0B3 /* LICENSES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSES.md; sourceTree = "<group>"; };
 		849345FF25E4FF9300E5CB55 /* MusicsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicsList.swift; sourceTree = "<group>"; };
 		8493460425E5001E00E5CB55 /* Musics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musics.swift; sourceTree = "<group>"; };
 		8493460A25E5009A00E5CB55 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
@@ -139,6 +147,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		847AC89825E63D0E0030B0B3 /* SingleSettingPages */ = {
+			isa = PBXGroup;
+			children = (
+				847AC89925E63D1C0030B0B3 /* SettingsAbout.swift */,
+			);
+			path = SingleSettingPages;
+			sourceTree = "<group>";
+		};
+		847AC8A925E642250030B0B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				847AC8AA25E642350030B0B3 /* ABOUT.md */,
+				847AC8AB25E6424F0030B0B3 /* LICENSES.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		84B7E9B725E3975B0060DB3C = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +228,7 @@
 		84B7E9FF25E39F0D0060DB3C /* GuruMiku */ = {
 			isa = PBXGroup;
 			children = (
+				847AC8A925E642250030B0B3 /* Resources */,
 				84B7EA3125E3CA6A0060DB3C /* Structs */,
 				84B7EA0125E39F800060DB3C /* Pages */,
 				84B7EA0025E39F740060DB3C /* Components */,
@@ -271,6 +297,7 @@
 				84B7EA3F25E3CDA90060DB3C /* Characters.swift */,
 				8493460425E5001E00E5CB55 /* Musics.swift */,
 				8493460A25E5009A00E5CB55 /* Enums.swift */,
+				847AC89325E637ED0030B0B3 /* Settings.swift */,
 			);
 			path = Structs;
 			sourceTree = "<group>";
@@ -301,6 +328,8 @@
 		84C964BB25E3F86600E48329 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				847AC89825E63D0E0030B0B3 /* SingleSettingPages */,
+				847AC88E25E637B10030B0B3 /* SettingsList.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -582,6 +611,7 @@
 				84B7E9FA25E39C300060DB3C /* ImageLoader.swift in Sources */,
 				84B7EA4025E3CDA90060DB3C /* Characters.swift in Sources */,
 				84D787C425E447E400BF7025 /* CacheManager.swift in Sources */,
+				847AC88F25E637B10030B0B3 /* SettingsList.swift in Sources */,
 				84D787D725E44F9D00BF7025 /* SpineViewer.swift in Sources */,
 				84B7EA3325E3CA750060DB3C /* Cards.swift in Sources */,
 				84B7E9C425E3975B0060DB3C /* GuruMikuApp.swift in Sources */,
@@ -591,11 +621,13 @@
 				84B7EA3B25E3CC210060DB3C /* MultipleApiResponse.swift in Sources */,
 				8493460025E4FF9300E5CB55 /* MusicsList.swift in Sources */,
 				8493461325E5051100E5CB55 /* MusicDetails.swift in Sources */,
+				847AC89A25E63D1C0030B0B3 /* SettingsAbout.swift in Sources */,
 				84B7EA0E25E39FD40060DB3C /* CardIcon.swift in Sources */,
 				84D787E525E452BA00BF7025 /* GameScene.swift in Sources */,
 				84B7EA0425E39FA10060DB3C /* CardsList.swift in Sources */,
 				8493460B25E5009A00E5CB55 /* Enums.swift in Sources */,
 				8493461825E50E4A00E5CB55 /* LeftPadding.swift in Sources */,
+				847AC89425E637ED0030B0B3 /* Settings.swift in Sources */,
 				84D787EA25E457B800BF7025 /* SyncHttpQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

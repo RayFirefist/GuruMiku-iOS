@@ -21,7 +21,6 @@ extension Skeleton {
             print(error.localizedDescription, error)
             return nil
         }
-        //guard let model = try? JSONDecoder().decode(SpineModel.self, from: data) else { return nil }
     }
 }
 
@@ -40,13 +39,18 @@ class GameScene: SKScene {
     override func didMove(to view: SKView) {
         if let character = Skeleton(jsonData: getPath(ext: "json"), atlasFile: getPath(ext: "atlas"), pngFile: getPath(ext: "png")) {
             character.name = name
-            //character.position = CGPoint(x: self.size.width / 2, y: (self.size.height / 2) - 200)
-            character.position = CGPoint(x: 0, y: 0)
+            character.position = CGPoint(x: self.size.width / 2, y: (self.size.height / 2) - 200)
+            //character.position = CGPoint(x: 0, y: 0)
             
             self.addChild(character)
             
-            if let walkAnimation = character.animation(named: "walk") {
+            let animationToTrigger = "06_talk_A"
+            
+            if let walkAnimation = character.animation(named: animationToTrigger) {
                 character.run(SKAction.repeatForever(walkAnimation))
+            }
+            else {
+                print("Failed to trigger \(animationToTrigger) animation")
             }
             print("Success on creating the spine chara")
         }
